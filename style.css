@@ -1,0 +1,149 @@
+@font-face {
+  font-family: custFont;
+  src: url(./fonts/Titania-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background: #020202;
+  flex-direction: column;
+  /* overflow: hidden; */
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+canvas {
+  /* position: absolute; */
+  left: 0;
+  z-index: 333;
+  top: 0;
+  height: auto;
+}
+.name-heading {
+    font-family: custFont, serif;
+    letter-spacing: 0.033em;
+    font-size: calc(1.73rem * 1.66);
+}
+main {
+  color : #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 555;
+  background-color: rgba(0, 0, 0, 0.20);
+  backdrop-filter: blur(10px);
+  display: flex;
+  height: 100vh;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 1.334rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 .5rem;
+}
+.social {
+  position: relative;
+  border: 8px double #ebeaea;
+  margin: 1rem auto;
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 4s ease-in;
+}
+.social svg {
+  margin : 1rem;
+  width: 70px;
+}
+.social svg:hover {
+  color: #bdfdbd;
+}
+
+.nav-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 1rem;
+}
+.nav-options a {
+  padding: 1.2rem;
+  color: #0aff0a;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  animation: fadeIn 6s ease-out;
+}
+.nav-options a:hover {
+  color: #bdfdbd;
+}
+.about {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem 12px;
+}
+.about p {
+  color: #fff;
+  padding: 6px 0;
+  font-family: 'Montserrat', serif;
+  letter-spacing: 0.023em;
+}
+.tech-stack {
+  font-size: 1.093rem;
+}
+.go-back {
+  visibility: hidden;
+}
+.about h2 {
+  font-family: 'Montserrat', serif;
+  color: #ebeaea;
+  font-size: calc(1.23rem * 1.66);
+}
+.card-exp {
+  display: flex;
+  margin: 1rem 8px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-exp p {
+  padding: 3px 8px;
+}
+.tech-used {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-exp img {
+  aspect-ratio: 7/7;
+  max-height: 220px;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .1;
+    }
+    70% {
+      opacity: .2;
+    }
+    100% {
+      opacity: 1;
+    }
+}
