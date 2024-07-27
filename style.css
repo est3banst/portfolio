@@ -1,6 +1,6 @@
 @font-face {
   font-family: custFont;
-  src: url(./fonts/Titania-Regular.ttf);
+  src: url(./fonts/Modern\ Prestige\ DEMO.otf);
 }
 
 * {
@@ -28,8 +28,8 @@ canvas {
 }
 .name-heading {
     font-family: custFont, serif;
-    letter-spacing: 0.033em;
-    font-size: calc(1.73rem * 1.66);
+    letter-spacing: 0.083em;
+    font-size: calc(1.83rem * 1.66);
 }
 main {
   color : #fff;
@@ -53,6 +53,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: custFont, serif;
   margin: 1rem 0 .5rem;
 }
 .social {
@@ -81,9 +82,10 @@ main {
 .nav-options a {
   padding: 1.2rem;
   color: #0aff0a;
+  font-family: custFont, serif;
   border: 1px solid #fff;
   border-radius: 16px;
-  animation: fadeIn 6s ease-out;
+  animation: fadeIn 5s ease-out;
 }
 .nav-options a:hover {
   color: #bdfdbd;
