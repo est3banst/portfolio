@@ -1,5 +1,7 @@
 const mainText = document.getElementById('greeting');
-const text = "Esteban Martinez - Web Developer";
+const secondText = document.getElementById('occupation');
+const text = "Esteban Martinez";
+const secText = "Web Developer"
 const about = document.getElementById('aboutid');
 const aboutLink = document.getElementById('about-link');
 const canvas = document.getElementById('mycanvas');
@@ -85,7 +87,7 @@ window.addEventListener('resize', function() {
 
 function typeEffect(container, text, time, i=0) {
   if (i === text.length) {
-    return
+    return 
   }
   setTimeout(() => {
 
@@ -96,6 +98,7 @@ function typeEffect(container, text, time, i=0) {
 }
 
 typeEffect(mainText, text, 80)
+typeEffect(secondText, secText, 250)
 
 
 

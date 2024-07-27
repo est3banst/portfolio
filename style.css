@@ -1,6 +1,6 @@
 @font-face {
   font-family: custFont;
-  src: url(./fonts/Modern\ Prestige\ DEMO.otf);
+  src: url(./fonts/Hamston.ttf);
 }
 
 * {
@@ -30,6 +30,16 @@ canvas {
     font-family: custFont, serif;
     letter-spacing: 0.083em;
     font-size: calc(1.83rem * 1.66);
+}
+.second-header {
+  font-family: custFont, serif;
+  letter-spacing: 0.083em;
+  width: 100%;
+  font-size: calc(1.33 * 1.66);
+  text-align: right;
+  margin-top: 1rem;
+  margin-right: 33%;
+  padding: 8px 1rem 0;
 }
 main {
   color : #fff;
