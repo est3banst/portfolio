@@ -105,6 +105,7 @@ main {
   width: 100%;
   margin: auto;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 1rem;
   padding: 1.5rem 12px;
@@ -129,6 +130,7 @@ main {
 .card-exp {
   display: flex;
   margin: 1rem 8px;
+  max-width: 50%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -139,8 +141,14 @@ main {
 .tech-used {
   color: #fff;
   display: flex;
+  width: max-content;
+  padding: .5rem 1rem;
+  background-color: #f3f3f358;
   justify-content: center;
   align-items: center;
+}
+.tech-used svg {
+  padding: 4px 8px;
 }
 .card-exp img {
   aspect-ratio: 7/7;
