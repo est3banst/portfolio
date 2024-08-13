@@ -97,6 +97,11 @@ function typeEffect(container, text, time, i=0) {
   
 }
 
+function switchVisibility(el) {
+  el.style.display === 'none' ? el.style.display = 'block' : el.style.display = 'none';
+
+}
+
 typeEffect(mainText, text, 80)
 typeEffect(secondText, secText, 250)
 
