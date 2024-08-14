@@ -129,11 +129,13 @@ main {
 }
 .card-exp {
   display: flex;
-  margin: 1rem 8px;
-  max-width: 50%;
+  margin: 1rem auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.card-exp a {
+  border-radius: 11px;
 }
 .card-exp p {
   padding: 3px 8px;
@@ -143,6 +145,7 @@ main {
   display: flex;
   width: max-content;
   padding: .5rem 1rem;
+  border-radius: 11px;
   background-color: #f3f3f358;
   justify-content: center;
   align-items: center;
@@ -167,4 +170,24 @@ main {
     100% {
       opacity: 1;
     }
+}
+@media (width <= 520px) {
+  .name-heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 1.51rem;
+    align-items: center;
+  }
+  .second-header {
+    font-size: 1.262rem;
+  }
+  .nav-options a {
+    padding: 0.8rem;
+    font-size: 0.98rem;
+  }
+  .social svg{
+    width: 55px;
+  }
 }
