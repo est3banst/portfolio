@@ -183,6 +183,10 @@ main {
   .second-header {
     font-size: 1.262rem;
   }
+  .location svg {
+    width: 25px;
+    margin: 4px;
+  }
   .nav-options a {
     padding: 0.8rem;
     font-size: 0.98rem;
