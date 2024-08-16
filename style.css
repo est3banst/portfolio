@@ -187,7 +187,12 @@ main {
     padding: 0.8rem;
     font-size: 0.98rem;
   }
+  .social {
+    padding: 0;
+    margin: 1rem;
+  }
   .social svg{
-    width: 55px;
+    width: 35px;
+    margin: 6px 1rem;
   }
 }
