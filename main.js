@@ -1,6 +1,6 @@
 const mainText = document.getElementById('greeting');
 const secondText = document.getElementById('occupation');
-const text = "Esteban Martinez";
+const text = "Esteban Martínez";
 const secText = "Web Developer"
 const about = document.getElementById('aboutid');
 const aboutLink = document.getElementById('about-link');
